@@ -5,8 +5,7 @@ $(document).ready(function() {
   });
 
   $("#manatee-click").click(function() {
-    $("img").removeClass();
-    $("img").addClass("manatee-image");
+      $("img").toggleClass("manatee-image");
   });
 
   $("button#default").click(function() {
